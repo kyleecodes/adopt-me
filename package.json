@@ -1,25 +1,39 @@
 {
-    "name": "adopt-me",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-        "dev": "parcel src/index.html",
-        "format": "prettier \"src/**/*.{js,html}\" --write",
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "lint": "eslint \"src/**/*.{js.jsx}\" --quiet"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "devDependencies": {
-        "eslint-config-prettier": "^6.7.0",
-        "prettier": "^1.19.1",
-        "parcel-bundler": "^1.12.4"
-    },
-    "dependencies": {
-        "eslint": "^6.7.2",
-        "react": "^16.12.0",
-        "react-dom": "^16.12.0"
-    }
+  "name": "adopt-me",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "format": "prettier \"src/**/*.{js,html}\" --write",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint \"src/**/*.{js.jsx}\" --quiet"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.17.0",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^1.19.1"
+  },
+  "dependencies": {
+    "@frontendmasters/pet": "^1.0.3",
+    "eslint": "^6.8.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "start-react-app": "^0.1.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyleecodes/adopt-me.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kyleecodes/adopt-me/issues"
+  },
+  "homepage": "https://github.com/kyleecodes/adopt-me#readme",
+  "description": ""
 }
