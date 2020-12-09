@@ -1,4 +1,4 @@
-# adopt-me
+# Adopt Pets App
 A React app for adopting pets! 
 
 This was one of my first React apps from early 2019, based on the lessons Intro to React by Brian Holt on frontendmasters.com.
